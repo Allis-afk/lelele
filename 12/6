@@ -1,0 +1,8 @@
+numbers = [10, 20, 30, 40, 50]
+poisk_number = int(input("Введите число: "))
+for i in range(len(numbers)):
+    if numbers[i] == poisk_number:
+        print(f"Индекс числа {poisk_number}: {i}")
+        break
+else:
+    print("Нет такого числа")
