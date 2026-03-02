@@ -1,0 +1,6 @@
+n = int(input("Введите количество строк: "))
+sim = []
+for i in range(n):
+    str = input(f"Введите символ {i+1}: ")
+    sim.extend(list(str))
+print("Результат:", sim)

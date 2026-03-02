@@ -1,0 +1,5 @@
+n=int(input('Введите число n (n>=1): '))
+chetne = []
+for i in range(1,n+1, 2):
+    chetne.append(i)
+print(chetne)

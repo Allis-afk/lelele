@@ -1,0 +1,8 @@
+numbers_str = input('Введите числа через пробел: ')
+numbers = numbers_str.split()
+pairs = 0
+for i in range(len(numbers)):
+    for j in range(i + 1, len(numbers)):
+        if numbers[i] == numbers[j]:
+            pairs = pairs + 1
+print('Количество пар: ', pairs)

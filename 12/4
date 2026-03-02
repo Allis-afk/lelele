@@ -1,0 +1,12 @@
+marks = [5, 4, 3, 5, 2, 5, 4, 3, 5, 5]
+pyaterka = 5
+dvoika = 2
+count1 = 0
+count2 = 0
+for mark in marks:
+    if mark == pyaterka:
+        count1 += 1
+for mark in marks:
+    if mark == dvoika:
+        count2 += 1
+print(f'Количество пятерок: {count1}\nКоличество двоек: {count2}')
