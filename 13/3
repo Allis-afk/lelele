@@ -1,0 +1,4 @@
+file = input("Введите путь к файлу: ")
+parts = file.split('\\')
+for part in parts:
+    print(part)
