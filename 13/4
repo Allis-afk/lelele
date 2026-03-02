@@ -1,0 +1,19 @@
+ip = input('Введите ip-адрес (содержит 4 целых неотрицательных числа, разделенных точкой: ')
+part = ip.split('.')
+
+if len(part) != 4:
+    print("НЕТ")
+else:
+    if 0 <= int(part[0]) <= 255:
+        if 0 <= int(part[1]) <= 255:
+            if 0 <= int(part[2]) <= 255:
+                if 0 <= int(part[3]) <= 255:
+                    print("ДА")
+                else:
+                    print("НЕТ")
+            else:
+                print("НЕТ")
+        else:
+            print("НЕТ")
+    else:
+        print("НЕТ")
